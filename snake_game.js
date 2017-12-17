@@ -27,5 +27,7 @@
     if(py>tc-1) {
         py= 0;
     }
+    ctx.fillStyle="blue";
+    ctx.fillRect(0,0,canv.width,canv.height);
   }
 </script>
