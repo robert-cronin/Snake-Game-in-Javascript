@@ -43,5 +43,12 @@
     while(trail.length>tail) {
     trail.shift();
     }
+    if(ax==px && ay==py) {
+        tail++;
+        ax=Math.floor(Math.random()*tc);
+        ay=Math.floor(Math.random()*tc);
+    }
+    ctx.fillStyle="red";
+    ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
   }
 </script>
