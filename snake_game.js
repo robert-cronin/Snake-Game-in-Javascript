@@ -12,4 +12,8 @@
   xv=yv=0;
   trail=[];
   tail = 5;
+  function game() {
+    px+=xv;
+    py+=yv;
+  }
 </script>
